@@ -2,7 +2,6 @@ import math
 import graphviz
 import matplotlib.pyplot as plt
 from games import *
-import matplotlib.pyplot as plt
 import numpy as np
 from treeNode import *
 from tree import *
@@ -70,7 +69,7 @@ def makeGraphvizTree(tree: Tree, moves: int):
     graph2.graph_attr['rankdir'] = "LR"
     graph.graph_attr['dpi'] = '800'
 
-    graph2.render('OpeningTree', format='png')
+    graph2.render('images/OpeningTree', format='png')
     plt.show()
 
 # Prints a table of the most popular openings, given an amount of times the openings has to have been played
@@ -121,7 +120,7 @@ def extractPopularOpenings(n: int, games: Games):
     ax.table(cellText=df.values, colLabels=df.columns, loc='center')
 
     # Save table as PNG
-    plt.savefig('NormalOpenings.png', dpi=1000)
+    plt.savefig('images/NormalOpenings.png', dpi=1000)
     plt.show()
 
 # Prints the stats of the openings, with win percentages for white, black and ties
@@ -219,7 +218,7 @@ def getStats(games: Games):
     'Color': ['Total', 'White', 'Black'],
     'Mean': [round(totalMean, 3), round(whiteMean, 3), round(blackMean, 3)],
     'Standard Deviation': [round(stDv, 3), round(stDvWhite,3), round(stDvBlack, 3)]
-}
+    }
 
     df = pd.DataFrame(data)
     print(df)
@@ -230,7 +229,7 @@ def getStats(games: Games):
     ax.table(cellText=df.values, colLabels=df.columns, loc='center')
 
     # Save table as PNG
-    plt.savefig('StatsTable.png')
+    plt.savefig('images/StatsTable.png')
 
     #Simple string returned if needed.
     return f"Mean is {round(totalMean, 3)}, and standard deviation is: {round(stDv,3)}"
@@ -256,7 +255,7 @@ def linePlot(games: Games, times: int):
     plt.xlabel("Moves made")
     plt.ylabel("Active games")
     plt.legend() 
-    plt.savefig("ActiveGamesLine.png", dpi=300)
+    plt.savefig("images/ActiveGamesLine.png", dpi=300)
     plt.show()
 
 # Plots the win stats for stockfish. 
@@ -310,7 +309,7 @@ def pltStatistics4Stockfish(games: Games ):
     plt.xlabel("Results", fontsize = 20)
     plt.ylabel("Number of games")
     plt.title("Stockfish performance in chess games")
-    plt.savefig("stockFish.png", dpi=300)
+    plt.savefig("images/stockFish.png", dpi=300)
 
     plt.show()
 

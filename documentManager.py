@@ -1,6 +1,5 @@
-from tkinter import Label
-from pylatex import Document, Section, Subsection, Command, Figure, Package
-from pylatex.utils import italic, NoEscape
+from pylatex import Document, Section, Subsection, Command, Figure
+from pylatex.utils import NoEscape
 import os
 
 # Creates the document

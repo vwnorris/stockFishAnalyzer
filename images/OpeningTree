@@ -1,0 +1,79 @@
+digraph {
+	graph [nodesep=2 rankdir=LR]
+	"Bird's opening0248" [label="Bird's opening" fillcolor="#6495ed" fontsize=10 style=filled xlabel=""]
+	f41715 [label=f4 fillcolor=white fontsize=10 style=filled xlabel="WP White: 21.43%
+Ties: 35.71%
+WP Black: 42.86%
+Games: 14"]
+	d52524 [label=d5 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 20.0%
+Ties: 20.0%
+WP Black: 60.0%
+Games: 10"]
+	b33815 [label=b3 fillcolor=white fontsize=10 style=filled xlabel="WP White: 16.67%
+Ties: 33.33%
+WP Black: 50.0%
+Games: 6"]
+	Bg44275 [label=Bg4 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 25.0%
+Ties: 25.0%
+WP Black: 50.0%
+Games: 4"]
+	Nf64534 [label=Nf6 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 0.0%
+Ties: 50.0%
+WP Black: 50.0%
+Games: 2"]
+	Nf33558 [label=Nf3 fillcolor=white fontsize=10 style=filled xlabel="WP White: 50.0%
+Ties: 0.0%
+WP Black: 50.0%
+Games: 2"]
+	g64546 [label=g6 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 50.0%
+Ties: 0.0%
+WP Black: 50.0%
+Games: 2"]
+	g33433 [label=g3 fillcolor=white fontsize=10 style=filled xlabel="WP White: 0.0%
+Ties: 0.0%
+WP Black: 100.0%
+Games: 2"]
+	h54265 [label=h5 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 0.0%
+Ties: 0.0%
+WP Black: 100.0%
+Games: 2"]
+	g62749 [label=g6 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 50.0%
+Ties: 50.0%
+WP Black: 0.0%
+Games: 2"]
+	e43496 [label=e4 fillcolor=white fontsize=10 style=filled xlabel="WP White: 50.0%
+Ties: 50.0%
+WP Black: 0.0%
+Games: 2"]
+	Bg74976 [label=Bg7 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 50.0%
+Ties: 50.0%
+WP Black: 0.0%
+Games: 2"]
+	Nf62827 [label=Nf6 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 0.0%
+Ties: 100.0%
+WP Black: 0.0%
+Games: 2"]
+	b33950 [label=b3 fillcolor=white fontsize=10 style=filled xlabel="WP White: 0.0%
+Ties: 100.0%
+WP Black: 0.0%
+Games: 2"]
+	c54714 [label=c5 fillcolor=grey fontsize=10 style=filled xlabel="WP White: 0.0%
+Ties: 100.0%
+WP Black: 0.0%
+Games: 2"]
+	"Bird's opening0248" -> f41715
+	f41715 -> d52524
+	f41715 -> g62749
+	f41715 -> Nf62827
+	d52524 -> b33815
+	d52524 -> Nf33558
+	d52524 -> g33433
+	b33815 -> Bg44275
+	b33815 -> Nf64534
+	Nf33558 -> g64546
+	g33433 -> h54265
+	g62749 -> e43496
+	e43496 -> Bg74976
+	Nf62827 -> b33950
+	b33950 -> c54714
+}

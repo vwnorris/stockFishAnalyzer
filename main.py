@@ -15,7 +15,7 @@ def main():
     ##############################################################
     # Insert the functinoality for the task you want to test here. 
 
-    printTheGame()
+    task11("Bird's opening", 4)
 
     # All tasks are explained in the documentation, and the 
     # code for testing them can be found below this main method: 
