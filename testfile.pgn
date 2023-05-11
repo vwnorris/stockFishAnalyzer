@@ -1,0 +1,14 @@
+[Event "CCRL 40/15"]
+[Site "CCRL"]
+[Date "2022.04.20"]
+[Round "820.1.530"]
+[White "Clover 3.1 64-bit"]
+[Black "Stockfish 15 64-bit"]
+[Result "0-1"]
+[ECO "B96"]
+[Opening "Sicilian"]
+[PlyCount "109"]
+[WhiteElo "3289"]
+[BlackElo "3511"]
+
+1. e4  c5  2. Nf3  d6  3. d4 cxd4  4. Nxd4  Nf6  5. Nc3 a6  6. Bg5  e6  7. f4  Nbd7  8. Qf3  Qc7  9. O-O-O  b5  10. e5  Bb7 11. Nxe6  fxe6  12. Qh3  dxe5  13. Qxe6+  Be7  14. Bxf6  gxf6  15. Bxb5 axb5  16. Nxb5 Qc6  17. Nd6+  Kd8 18. Nxb7+  Qxb7  19. Rxd7+  Qxd7  20. Rd1  Qxd1+ 21. Kxd1  Ke8  22. a4 Kf8  23. fxe5 fxe5  24. Qxe5  Rg8  25. Qf4+  Kg7  26. Qg4+  Kh8  27. Qd4+  Rg7  28. Kc1  Rf8  29. Kb1 Bf6  30. Qd6  Rgf7 31. h4  Ra8  32.Qc6  Rb8  33. c3 Bg7  34. Qc5  Rfb7  35. b4  Re8  36. a5  Rbb8  37. a6  Rbc8  38. Qb5  Rf8  39. c4 Rcd8  40. Qg5  h6 41. Qe3  Rfe8 42. Qf3  Rd2  43. Kc1  Ra2  44. Kd1  Rd8+  45. Ke1  Re8+  46. Kd1  Rd8+  47. Ke1  Ra1+ 48. Ke2  Re8+ 49. Kd2  Rxa6  50. Qb7  Ra2+  51. Kd3  Ra3+  52. Kd2  Bc3+  53. Kd3 Bxb4+  54. Kd4 Bc3+  55. Kd5  0-1
